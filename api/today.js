@@ -9,7 +9,7 @@ export default function handler(req,res){
   res.status(200).json({
     date: todayStr,
     attributes: ["gender","house","class","roles","appearances"],
-    maxAttempts:6,
+    maxAttempts:12,
     character: todayCharacter
   });
 }
