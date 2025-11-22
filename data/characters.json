@@ -3,7 +3,7 @@
     "name": "Arya Stark",
     "gender": "Female",
     "house": "Stark",
-    "class": "Noble / Commoner",
+    "class": "Highborn",
     "roles": "Assassin",
     "appearances": 7
   },
@@ -19,7 +19,7 @@
     "name": "Cersei Lannister",
     "gender": "Female",
     "house": "Lannister",
-    "class": "Noble",
+    "class": "Highborn, Royalty",
     "roles": "Queen",
     "appearances": 7
   }
