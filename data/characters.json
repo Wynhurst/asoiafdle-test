@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Arya Stark",
+    "gender": "Female",
+    "house": "Stark",
+    "class": "Noble / Commoner",
+    "roles": "Assassin",
+    "appearances": 7
+  },
+  {
+    "name": "Jon Snow",
+    "gender": "Male",
+    "house": "Stark",
+    "class": "Noble / Bastard",
+    "roles": "Lord Commander",
+    "appearances": 7
+  },
+  {
+    "name": "Cersei Lannister",
+    "gender": "Female",
+    "house": "Lannister",
+    "class": "Noble",
+    "roles": "Queen",
+    "appearances": 7
+  }
+]
