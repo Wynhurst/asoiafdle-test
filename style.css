@@ -1,57 +1,56 @@
-body {
-font-family: Arial, sans-serif;
-background: #0f172a;
-color: #e5e7eb;
-display: flex;
-align-items: center;
-justify-content: center;
-height: 100vh;
+/* Simple modern theme */
+:root{
+  --bg:#071022;
+  --panel:#0f1724;
+  --muted:#9aa4b2;
+  --accent:#d6b370;
+  --green:#15803d;
+  --yellow:#b45309;
+  --gray:#374151;
 }
+*{box-sizing:border-box}
+body{font-family:Inter,system-ui,Segoe UI,Helvetica,Arial; background:linear-gradient(180deg,var(--bg),#08111a); color:#e6eef8; margin:0; padding:24px; display:flex; align-items:center; justify-content:center; min-height:100vh;}
+#container{width:960px; max-width:96%;}
+header h1{margin:0 0 6px 0; font-size:28px;}
+.subtitle{margin:0 0 18px 0; color:var(--muted);}
 
-#game { text-align: center; }
+/* game panel */
+#game{background:var(--panel); padding:18px; border-radius:12px; box-shadow: 0 8px 30px rgba(2,6,23,0.6);}
+#board{display:grid; gap:10px; margin-bottom:14px;}
 
-#board {
-display: grid;
-gap: 10px;
-margin-bottom: 20px;
-}
+/* Rows */
+.row{display:flex; gap:10px; justify-content:center;}
+.tile{min-width:120px; height:56px; background:#111827; border-radius:8px; display:flex; align-items:center; justify-content:center; font-weight:700; text-transform:uppercase; padding:6px; font-size:13px; letter-spacing:0.6px;}
+.tile.small{min-width:90px; font-size:12px;}
 
-.row {
-display: flex;
-gap: 10px;
-justify-content: center;
-}
+/* colors */
+.tile.green{background:var(--green); color:white;}
+.tile.yellow{background:var(--yellow); color:white;}
+.tile.gray{background:var(--gray); color:white;}
 
-.tile {
-width: 120px;
-height: 50px;
-background: #1f2937;
-border-radius: 6px;
-display: flex;
-align-items: center;
-justify-content: center;
-font-size: 14px;
-font-weight: bold;
-text-transform: uppercase;
-}
+/* controls */
+#controls{display:flex; gap:8px; align-items:center; justify-content:center; margin-bottom:8px;}
+#guessInput{padding:10px 12px; border-radius:8px; border:1px solid rgba(255,255,255,0.04); min-width:280px; font-size:14px;}
+button{padding:10px 14px; border-radius:8px; border:none; background:var(--accent); color:#071022; font-weight:700; cursor:pointer;}
+button:hover{filter:brightness(1.05)}
 
-.green { background: #15803d; }
-.gray { background: #4b5563; }
+/* messages */
+#msg{min-height:22px; color:var(--muted); text-align:center; margin:6px 0 0 0;}
 
-input {
-padding: 8px;
-font-size: 16px;
-width: 200px;
-}
-button {
-padding: 8px 12px;
-font-size: 16px;
-}
-
-/* Flip animation */
+/* animations */
 @keyframes flip {
-0% { transform: rotateX(0); }
-50% { transform: rotateX(90deg); }
-100% { transform: rotateX(0); }
+  0% { transform: rotateX(0deg); }
+  50% { transform: rotateX(90deg); }
+  100% { transform: rotateX(0deg); }
 }
 .tile.flip { animation: flip 0.6s ease forwards; }
+
+@keyframes pop {
+  0% { transform:scale(1); } 40% { transform:scale(1.07); } 100% { transform:scale(1); }
+}
+.tile.pop { animation: pop 0.18s ease; }
+
+@keyframes shake {
+  0%{transform:translateX(0)}20%{transform:translateX(-6px)}40%{transform:translateX(6px)}60%{transform:translateX(-6px)}80%{transform:translateX(6px)}100%{transform:translateX(0)}
+}
+.row.shake{animation:shake 0.46s ease;}

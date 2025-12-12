@@ -1,23 +1,34 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-<meta charset="UTF-8" />
-<title>ASOIAF Classic Puzzle</title>
+<meta charset="utf-8" />
+<title>ASOIAF — Classic Puzzle</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <main id="container">
+    <header>
+      <h1>ASOIAF Classic — Guess the Character</h1>
+      <p class="subtitle">Guess the character from A Song of Ice and Fire. Classic categories: Name, Gender, Birthplace, Last Name, Class, Roles, Appears In.</p>
+    </header>
 
-<div id="game">
-<h1>ASOIAF Classic Puzzle</h1>
-<div id="board"></div>
+    <section id="game">
+      <div id="board" aria-live="polite"></div>
 
-<div id="controls">
-<input id="guessInput" placeholder="Enter character name">
-<button id="guessBtn">Guess</button>
-</div>
+      <div id="controls">
+        <input id="guessInput" list="charactersList" placeholder="Type or choose a character" autocomplete="off" />
+        <datalist id="charactersList"></datalist>
+        <button id="guessBtn">Guess</button>
+        <button id="resetBtn">Reset</button>
+      </div>
 
-<p id="msg"></p>
-</div>
+      <p id="msg" role="status"></p>
+    </section>
+
+    <footer>
+      <small>Data loaded from characters.json — edit the file to add characters.</small>
+    </footer>
+  </main>
 
 <script src="script.js"></script>
 </body>

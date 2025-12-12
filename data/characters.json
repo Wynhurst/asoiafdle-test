@@ -1,26 +1,91 @@
 [
   {
+    "name": "Catelyn Stark",
+    "gender": "Female",
+    "birthplace": "Riverrun",
+    "lastName": [
+      "Tully",
+      "Stark"
+    ],
+    "class": [
+      "Noble",
+      "Lady"
+    ],
+    "roles": [
+      "Mother",
+      "Diplomat"
+    ],
+    "appearsIn": [
+      "AGOT",
+      "ACOK",
+      "ASOS"
+    ]
+  },
+  {
     "name": "Arya Stark",
     "gender": "Female",
-    "house": "Stark",
-    "class": "Highborn",
-    "roles": "Assassin",
-    "appearances": 7
+    "birthplace": "Winterfell",
+    "lastName": [
+      "Stark"
+    ],
+    "class": [
+      "Noble",
+      "Faceless"
+    ],
+    "roles": [
+      "Assassin",
+      "Child of the Forest"
+    ],
+    "appearsIn": [
+      "AGOT",
+      "ACOK",
+      "ASOS",
+      "AFFC",
+      "ADWD"
+    ]
   },
   {
     "name": "Jon Snow",
     "gender": "Male",
-    "house": "Stark",
-    "class": "Noble / Bastard",
-    "roles": "Lord Commander",
-    "appearances": 7
+    "birthplace": "Winterfell",
+    "lastName": [
+      "Snow"
+    ],
+    "class": [
+      "Bastard",
+      "Lord Commander"
+    ],
+    "roles": [
+      "Commander",
+      "King in the North"
+    ],
+    "appearsIn": [
+      "AGOT",
+      "ACOK",
+      "ASOS",
+      "ADWD"
+    ]
   },
   {
-    "name": "Cersei Lannister",
-    "gender": "Female",
-    "house": "Lannister",
-    "class": "Highborn, Royalty",
-    "roles": "Queen",
-    "appearances": 7
+    "name": "Tyrion Lannister",
+    "gender": "Male",
+    "birthplace": "Casterly Rock",
+    "lastName": [
+      "Lannister"
+    ],
+    "class": [
+      "Noble",
+      "Hand of the King"
+    ],
+    "roles": [
+      "Advisor",
+      "Hand"
+    ],
+    "appearsIn": [
+      "AGOT",
+      "ACOK",
+      "ASOS",
+      "ADWD"
+    ]
   }
 ]
