@@ -7,6 +7,14 @@ function toArray(v){
   return [String(v).toLowerCase()];
 }
 
+function evaluateMultiValue(correctValues, guessValues){
+  const intersection = guessValues.filter(v => correctValues.includes(v));
+  if(intersection.length === 0) return "gray";
+  const allMatch = intersection.length === correctValues.length && correctValues.length === guessValues.length;
+  if(allMatch) return "green";
+  return "yellow";
+}
+
 export default function handler(req, res){
   const body = JSON.parse(req.body || '{}');
   const guessName = body.guess;
@@ -39,17 +47,7 @@ export default function handler(req, res){
   multiKeys.forEach(key => {
     const guessedVals = toArray(guessed[key]);
     const answerVals = toArray(answer[key]);
-
-    // intersection size
-    const intersect = guessedVals.filter(v => answerVals.includes(v));
-    if(intersect.length === 0){
-      feedback.push('gray');
-    } else if(intersect.length < answerVals.length){
-      feedback.push('yellow');
-    } else {
-      // intersection length >= answerVals.length -> all answer values covered by guess
-      feedback.push('green');
-    }
+    feedback.push(evaluateMultiValue(answerVals, guessedVals));
   });
 
   const correct = guessed.name.toLowerCase() === answer.name.toLowerCase();
