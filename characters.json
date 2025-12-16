@@ -1,0 +1,693 @@
+[
+  {
+    "name": "Daenerys Targaryen",
+    "gender": "Female",
+    "birthplace": "Crownlands",
+    "house/name": "Targaryen",
+    "class": [
+      "Royalty"
+    ],
+    "roles": [
+      "Queen",
+      "Dragonrider"
+    ],
+    "appearsIn": [
+      "AGOT",
+      "ACOK",
+      "ASOS",
+      "ADWD"
+    ]
+  },
+  {
+    "name": "Brynden Rivers",
+    "gender": "Male",
+    "birthplace": "Crownlands",
+    "house/name": "Rivers",
+    "class": [
+      "Highborn",
+      "Bastard"
+    ],
+    "roles": [
+      "Council Member",
+      "Night's Watch"
+    ],
+    "appearsIn": [
+      "ADWD",
+      "The Mystery Knight"
+    ]
+  },
+  {
+    "name": "Taena Merryweather",
+    "gender": "Female",
+    "birthplace": "Myr",
+    "house/name": "Merryweather",
+    "class": [
+      "Highborn"
+    ],
+    "appearsIn": [
+      "ASOT",
+      "AFFC"
+    ]
+  },
+  {
+    "name": "Jorah Mormont",
+    "gender": "Male",
+    "birthplace": "The North",
+    "house/name": "Mormont",
+    "class": [
+      "Highborn",
+      "Lord"
+    ],
+    "roles": [
+      "Knight",
+      "Kingsguard"
+    ],
+    "appearsIn": [
+      "AGOT",
+      "ACOK",
+      "ASOS",
+      "ADWD"
+    ]
+  },
+  {
+    "name": "Daemon Blackfyre",
+    "gender": "Male",
+    "birthplace": "Crownlands",
+    "house/name": "Waters, Blackfyre",
+    "class": [
+      "Highborn",
+      "Bastard",
+      "Royalty"
+    ],
+    "roles": [
+      "Knight",
+      "King"
+    ],
+    "appearsIn": [
+      "TWOIAF"
+    ]
+  },
+  {
+    "name": "Tyanna",
+    "gender": "Female",
+    "birthplace": "Pentos",
+    "house/name": "N/A",
+    "class": [
+      "Lowborn",
+      "Royalty"
+    ],
+    "roles": [
+      "Council Member",
+      "Queen"
+    ],
+    "appearsIn": [
+      "Fire and Blood"
+    ]
+  },
+  {
+    "name": "Rhaegar Targaryen",
+    "gender": "Male",
+    "birthplace": "Crownlands",
+    "house/name": "Targaryen",
+    "class": [
+      "Royalty"
+    ],
+    "roles": [
+      "Knight"
+    ],
+    "appearsIn": [
+      "TWOIAF"
+    ]
+  },
+  {
+    "name": "Jon Connington",
+    "gender": "Male",
+    "birthplace": "Stormlands",
+    "house/name": "Connington",
+    "class": [
+      "Highborn",
+      "Lord"
+    ],
+    "roles": [
+      "Knight",
+      "Council Member"
+    ],
+    "appearsIn": [
+      "ADWD"
+    ]
+  },
+  {
+    "name": "Jon Snow",
+    "gender": "Male",
+    "birthplace": "Unknown",
+    "house/name": "Snow",
+    "class": [
+      "Highborn",
+      "Bastard",
+      "Lord"
+    ],
+    "roles": [
+      "Night's Watch"
+    ],
+    "appearsIn": [
+      "AGOT",
+      "ACOK",
+      "ASOS",
+      "ADWD"
+    ]
+  },
+  {
+    "name": "Baelor Breakspear",
+    "gender": "Male",
+    "birthplace": "Crownlands",
+    "house/name": "Targaryen",
+    "class": [
+      "Royalty"
+    ],
+    "roles": [
+      "Knight",
+      "Council Member"
+    ],
+    "appearsIn": [
+      "The Hedge Knight"
+    ]
+  },
+  {
+    "name": "Cersei Lannister",
+    "gender": "Female",
+    "birthplace": "Westerlands",
+    "house/name": "Lannister",
+    "class": [
+      "Highborn",
+      "Royalty"
+    ],
+    "roles": [
+      "Queen",
+      "Council Member",
+      "Regent"
+    ],
+    "appearsIn": [
+      "AGOT",
+      "ACOK",
+      "ASOS",
+      "AFFC",
+      "ADWD"
+    ]
+  },
+  {
+    "name": "Jaime Lannister",
+    "gender": "Male",
+    "birthplace": "Westerlands",
+    "house/name": "Lannister",
+    "class": [
+      "Highborn"
+    ],
+    "roles": [
+      "Knight",
+      "Kingsguard"
+    ],
+    "appearsIn": [
+      "AGOT",
+      "ACOK",
+      "ASOS",
+      "AFFC",
+      "ADWD"
+    ]
+  },
+  {
+    "name": "Tyrion Lannister",
+    "gender": "Male",
+    "birthplace": "Westerlands",
+    "house/name": "Lannister",
+    "class": [
+      "Highborn"
+    ],
+    "roles": [
+      "Council Member"
+    ],
+    "appearsIn": [
+      "AGOT",
+      "ACOK",
+      "ASOS",
+      "ADWD"
+    ]
+  },
+  {
+    "name": "Brienne of Tarth",
+    "gender": "Female",
+    "birthplace": "Stormlands",
+    "house/name": "Tarth",
+    "class": [
+      "Highborn"
+    ],
+    "roles": [
+      "Kingsguard"
+    ],
+    "appearsIn": [
+      "ACOK",
+      "ASOS",
+      "AFFC",
+      "ADWD"
+    ]
+  },
+  {
+    "name": "Arthur Dayne",
+    "gender": "Male",
+    "birthplace": "Dorne",
+    "house/name": "Dayne",
+    "class": [
+      "Highborn"
+    ],
+    "roles": [
+      "Knight",
+      "Kingsguard"
+    ],
+    "appearsIn": [
+      "TWOIAF"
+    ]
+  },
+  {
+    "name": "Aemond Targaryen",
+    "gender": "Male",
+    "birthplace": "Crownlands",
+    "house/name": "Targaryen",
+    "class": [
+      "Royalty"
+    ],
+    "roles": [
+      "Council Member",
+      "Regent",
+      "Dragonrider"
+    ],
+    "appearsIn": [
+      "Fire and Blood"
+    ]
+  },
+  {
+    "name": "Torrhen Stark",
+    "gender": "Male",
+    "birthplace": "The North",
+    "house/name": "Stark",
+    "class": [
+      "Royalty",
+      "Highborn",
+      "Lord"
+    ],
+    "roles": [
+      "King"
+    ],
+    "appearsIn": [
+      "Fire and Blood"
+    ]
+  },
+  {
+    "name": "Unwin Peake",
+    "gender": "Male",
+    "birthplace": "The Reach",
+    "house/name": "Peake",
+    "class": [
+      "Highborn",
+      "Lord"
+    ],
+    "roles": [
+      "Knight",
+      "Council Member",
+      "Regent"
+    ],
+    "appearsIn": [
+      "Fire and Blood"
+    ]
+  },
+  {
+    "name": "Hugh Hammer",
+    "gender": "Male",
+    "birthplace": "Crownlands",
+    "house/name": "Hammer",
+    "class": [
+      "Lowborn",
+      "Royalty"
+    ],
+    "roles": [
+      "Dragonrider",
+      "King"
+    ],
+    "appearsIn": [
+      "Fire and Blood"
+    ]
+  },
+  {
+    "name": "Ulf White",
+    "gender": "Male",
+    "birthplace": "Crownlands",
+    "house/name": "N/A",
+    "class": [
+      "Lowborn",
+      "Lord"
+    ],
+    "roles": [
+      "Dragonrider"
+    ],
+    "appearsIn": [
+      "Fire and Blood"
+    ]
+  },
+  {
+    "name": "Davos Seaworth",
+    "gender": "Male",
+    "birthplace": "Crownlands",
+    "house/name": "Seaworth",
+    "class": [
+      "Lowborn",
+      "Lord"
+    ],
+    "roles": [
+      "Knight",
+      "Council Member"
+    ],
+    "appearsIn": [
+      "ACOK",
+      "ASOS",
+      "ADWD"
+    ]
+  },
+  {
+    "name": "Petyr Baelish",
+    "gender": "Male",
+    "birthplace": "The Vale",
+    "house/name": "Baelish",
+    "class": [
+      "Highborn",
+      "Lord"
+    ],
+    "roles": [
+      "Council Member",
+      "Regent"
+    ],
+    "appearsIn": [
+      "AGOT",
+      "ACOK",
+      "ASOS",
+      "AFFC"
+    ]
+  },
+  {
+    "name": "Catlyn Stark",
+    "gender": "Female",
+    "birthplace": "Riverlands",
+    "house/name": "Tully, Stark",
+    "class": [
+      "Highborn"
+    ],
+    "appearsIn": [
+      "AGOT",
+      "ACOK",
+      "ASOS",
+      "ADWD"
+    ]
+  },
+  {
+    "name": "Lysa Arryn",
+    "gender": "Female",
+    "birthplace": "Riverlands",
+    "house/name": "Tully, Arryn",
+    "class": [
+      "Highborn"
+    ],
+    "roles": [
+      "Regent"
+    ],
+    "appearsIn": [
+      "AGOT",
+      "ACOK",
+      "ASOS"
+    ]
+  },
+  {
+    "name": "Lewyn Martell",
+    "gender": "Male",
+    "birthplace": "Dorne",
+    "house/name": "Martell",
+    "class": [
+      "Highborn"
+    ],
+    "roles": [
+      "Knight",
+      "Kingsguard"
+    ],
+    "appearsIn": [
+      "TWOIAF"
+    ]
+  },
+  {
+    "name": "Elia Martell",
+    "gender": "Female",
+    "birthplace": "Dorne",
+    "house/name": "Martell",
+    "class": [
+      "Highborn",
+      "Royalty"
+    ],
+    "appearsIn": [
+      "TWOIAF"
+    ]
+  },
+  {
+    "name": "Aegor Rivers",
+    "gender": "Male",
+    "birthplace": "Crownlands",
+    "house/name": "Rivers",
+    "class": [
+      "Highborn",
+      "Bastard"
+    ],
+    "roles": [
+      "Knight"
+    ],
+    "appearsIn": [
+      "TWOIAF"
+    ]
+  },
+  {
+    "name": "Rohanne Webber",
+    "gender": "Female",
+    "birthplace": "The Reach",
+    "house/name": "Webber, Lannister",
+    "class": [
+      "Highborn",
+      "Lady"
+    ],
+    "appearsIn": [
+      "The Sworn Sword"
+    ]
+  },
+  {
+    "name": "Maegor Targaryen",
+    "gender": "Male",
+    "birthplace": "Crownlands",
+    "house/name": "Targaryen",
+    "class": [
+      "Royalty"
+    ],
+    "roles": [
+      "Knight",
+      "King",
+      "Dragonrider"
+    ],
+    "appearsIn": [
+      "Fire and Blood"
+    ]
+  },
+  {
+    "name": "Aemon the Dragonknight",
+    "gender": "Male",
+    "birthplace": "Crownlands",
+    "house/name": "Targaryen",
+    "class": [
+      "Royalty"
+    ],
+    "roles": [
+      "Knight",
+      "Kingsguard"
+    ],
+    "appearsIn": [
+      "TWOIAF"
+    ]
+  },
+  {
+    "name": "Maester Aemon",
+    "gender": "Male",
+    "birthplace": "Crownlands",
+    "house/name": "Targaryen",
+    "class": [
+      "Royalty"
+    ],
+    "roles": [
+      "Maester",
+      "Night's Watch"
+    ],
+    "appearsIn": [
+      "AGOT",
+      "ACOK",
+      "ASOS",
+      "AFFC"
+    ]
+  },
+  {
+    "name": "Barristan Selmy",
+    "gender": "Male",
+    "birthplace": "Stormlands",
+    "house/name": "Selmy",
+    "class": [
+      "Highborn"
+    ],
+    "roles": [
+      "Knight",
+      "Kingsguard",
+      "Council Member"
+    ],
+    "appearsIn": [
+      "AGOT",
+      "ACOK",
+      "ASOS",
+      "ADWD"
+    ]
+  },
+  {
+    "name": "Nettles",
+    "gender": "Female",
+    "birthplace": "Crownlands",
+    "house/name": "N/A",
+    "class": [
+      "Lowborn"
+    ],
+    "roles": [
+      "Dragonrider"
+    ],
+    "appearsIn": [
+      "Fire and Blood"
+    ]
+  },
+  {
+    "name": "Otto Hightower",
+    "gender": "Male",
+    "birthplace": "The Reach",
+    "house/name": "Hightower",
+    "class": [
+      "Highborn"
+    ],
+    "roles": [
+      "Knight",
+      "Council Member"
+    ],
+    "appearsIn": [
+      "Fire and Blood"
+    ]
+  },
+  {
+    "name": "Alicent Hightower",
+    "gender": "Female",
+    "birthplace": "The Reach",
+    "house/name": "Hightower",
+    "class": [
+      "Highborn",
+      "Royalty"
+    ],
+    "roles": [
+      "Queen",
+      "Council Member"
+    ],
+    "appearsIn": [
+      "Fire and Blood"
+    ]
+  },
+  {
+    "name": "Gwayne Corbray",
+    "gender": "Male",
+    "birthplace": "The Vale",
+    "house/name": "Corbray",
+    "class": [
+      "Highborn"
+    ],
+    "roles": [
+      "Knight",
+      "Kingsguard"
+    ],
+    "appearsIn": [
+      "TWOIAF"
+    ]
+  },
+  {
+    "name": "Black Aly",
+    "gender": "Female",
+    "birthplace": "Riverlands",
+    "house/name": "Blackwood, Stark",
+    "class": [
+      "Highborn"
+    ],
+    "appearsIn": [
+      "Fire and Blood"
+    ]
+  },
+  {
+    "name": "Sabitha Frey",
+    "gender": "Female",
+    "birthplace": "Riverlands",
+    "house/name": "Vypren, Frey",
+    "class": [
+      "Highborn"
+    ],
+    "appearsIn": [
+      "Fire and Blood"
+    ]
+  },
+  {
+    "name": "Stannis Baratheon",
+    "gender": "Male",
+    "birthplace": "Stormlands",
+    "house/name": "Baratheon",
+    "class": [
+      "Highborn",
+      "Lord",
+      "Royalty"
+    ],
+    "roles": [
+      "Knight",
+      "King"
+    ],
+    "appearsIn": [
+      "ACOK",
+      "ASOS",
+      "ADWD"
+    ]
+  },
+  {
+    "name": "Jonquil Darke",
+    "gender": "Female",
+    "birthplace": "Crownlands",
+    "house/name": "Waters, Darke",
+    "class": [
+      "Highborn",
+      "Bastard"
+    ],
+    "appearsIn": [
+      "Fire and Blood"
+    ]
+  },
+  {
+    "name": "Daemon Targaryen (Rogue Prince)",
+    "gender": "Male",
+    "birthplace": "Crownlands",
+    "house/name": "Targaryen",
+    "class": [
+      "Highborn",
+      "King"
+    ],
+    "roles": [
+      "Council Member",
+      "Dragonrider"
+    ],
+    "appearsIn": [
+      "Fire and Blood"
+    ]
+  }
+]
